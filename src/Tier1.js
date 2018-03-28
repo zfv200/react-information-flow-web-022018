@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { CSSTransitionGroup } from 'react-transition-group'
-import { getRandomColor, getReducedColor } from './randomColorGenerator.js'
+import { getReducedColor } from './randomColorGenerator.js'
 import { updateColors, updateChildColors } from './updateColor.js'
 import Tier2 from './Tier2'
 
