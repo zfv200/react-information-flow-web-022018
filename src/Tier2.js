@@ -9,9 +9,7 @@ export default class Tier2 extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      color: this.props.color,
-      childColor: getReducedColor(this.props.color),
-      classes: "tier2"
+      childColor: getReducedColor(this.props.color)
     }
   }
 
